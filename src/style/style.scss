@@ -87,26 +87,26 @@
     top: 0;
     width: 100%;
     z-index: 99999;
-  }
+}
 
 .progress-container {
     background-color: rgba(150, 150, 150, 0.6);
     height: 10px;
     width: 100%;
-  }
-  
-  .progress-bar {
+}
+
+.progress-bar {
     background-color: #F52225;
     height: 10px;
     width: 0%;
-  }
+}
 
 
 
 
 //Progress Bar
 
-.goAbout{
+.goAbout {
     position: absolute;
     bottom: 18px;
     width: 60px;
@@ -237,22 +237,22 @@
 
 .navBars.change {
 
-    span{
+    span {
         background-color: #F52225;
 
         &:nth-child(2) {
             opacity: 0;
-    
+
         }
-    
+
         &:nth-child(1) {
             transform: rotate(45deg);
             transition: 0.5s;
             position: absolute;
             margin-top: 20px;
-    
+
         }
-    
+
         &:nth-child(3) {
             transform: rotate(-45deg);
             transition: 0.5s;
@@ -260,7 +260,7 @@
         }
 
     }
-   
+
 
 }
 
@@ -275,7 +275,7 @@
 
     .navbar {
         padding: 0 1rem;
-      
+
 
         .navBars {
             display: block;
@@ -575,7 +575,6 @@
     .home {
         height: 100vh;
         justify-content: center;
-        // position: relative;
 
         .container {
             height: 100%;
@@ -594,7 +593,7 @@
 
                         p {
                             font-size: 18px;
-                            margin-top: 10a0px;
+                            margin-top: 10px;
 
                         }
                     }

@@ -76,7 +76,7 @@
 }
 
 .expe {
-    padding: 150px 0px;
+    padding: 80px 0px;
     // height: 100vh;
 
     background-color: #191C26;
@@ -216,22 +216,23 @@
                             transition: 3s;
                         }
                     }
-                    
+
                     @keyframes animate {
                         100% {
                             transform: scaleX(1);
                         }
                     }
 
-                    p{
+                    p {
+
                         &:nth-child(1),
                         &:nth-child(3),
                         &:nth-child(5),
                         &:nth-child(7),
-                        &:nth-child(9){
+                        &:nth-child(9) {
                             position: relative;
-                            
-                            &::after{
+
+                            &::after {
                                 content: "70%";
                                 position: absolute;
                                 right: 0;
@@ -240,38 +241,42 @@
                         }
 
                     }
-                    p{
-                        &:nth-child(3){
-                            &::after{
+
+                    p {
+                        &:nth-child(3) {
+                            &::after {
                                 content: "80%";
                             }
                         }
                     }
-                    p{
-                        &:nth-child(5){
-                            &::after{
+
+                    p {
+                        &:nth-child(5) {
+                            &::after {
                                 content: "65%";
                             }
                         }
                     }
-                    p{
-                        &:nth-child(7){
-                            &::after{
+
+                    p {
+                        &:nth-child(7) {
+                            &::after {
                                 content: "60%";
                             }
                         }
                     }
-                    p{
-                        &:nth-child(9){
-                            &::after{
+
+                    p {
+                        &:nth-child(9) {
+                            &::after {
                                 content: "70%";
                             }
                         }
                     }
-               
+
                 }
 
-             
+
 
 
 
@@ -390,6 +395,18 @@
 
     .col-xs-12 {
         width: 100%;
+    }
+
+    .expe {
+        .container {
+            .row {
+                .col-4 {
+                    .expe-box1 {
+                        height: 500px;
+                    }
+                }
+            }
+        }
     }
 }
 
