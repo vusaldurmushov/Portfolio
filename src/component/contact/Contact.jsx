@@ -45,6 +45,8 @@ function Contact() {
     emailjs.sendForm('service_0crmx3o', 'template_o3pzm2q', e.target, 'YLLPXLlqt4hijSswO')
       .then((result) => {
         console.log(result.text);
+     
+
 
         toast.success('your message sent successfully !', {
           position: "top-right",

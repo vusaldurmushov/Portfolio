@@ -25,7 +25,16 @@ function Portfolio() {
               <div className="headers">
                 <span></span>
               </div>
-              <div className="content"><a target="_blank" href="https://vusaldurmushov.github.io/project1/"></a>
+              <div className="content content5"><a target="_blank" href="https://vusal-react-e-commerce-project.netlify.app/"></a>
+              </div>
+            </div>
+          </div>
+          <div  data-aos="zoom-i  n-up" className="col-6 col-xs-12">
+            <div className="browser">
+              <div className="headers">
+                <span></span>
+              </div>
+              <div className="content"><a target="_blank"  href="https://vusaldurmushov.github.io/project1/"></a>
               </div>
             </div>
           </div>

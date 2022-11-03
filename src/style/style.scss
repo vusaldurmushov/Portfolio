@@ -87,12 +87,15 @@
     top: 0;
     width: 100%;
     z-index: 99999;
+
 }
 
 .progress-container {
     background-color: rgba(150, 150, 150, 0.6);
     height: 10px;
     width: 100%;
+
+  
 }
 
 .progress-bar {
@@ -206,8 +209,6 @@
                 a {
                     color: white;
                     position: relative;
-
-
                 }
             }
         }
@@ -288,13 +289,15 @@
         .menu {
             display: block;
             position: absolute;
-            top: 84px;
+            top: 80px;
             height: calc(100vh - 84px);
             width: 100%;
             background-color: #040809;
             padding: 0 10px;
-            left: -100%;
+            // left: -100%;
+            left: 0;
             transition: 0.5s;
+            z-index: 9999;
 
             ul {
                 display: block;

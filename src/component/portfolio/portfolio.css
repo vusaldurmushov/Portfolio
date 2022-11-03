@@ -76,12 +76,12 @@
 }
 
 .portfolio {
-  background-color: #191C26;
+  background-color: #191c26;
   padding: 60px 0px;
 }
 .portfolio .container .port p:nth-child(1) {
   font-weight: 500;
-  color: #F52225;
+  color: #f52225;
   font-size: 16px;
   position: relative;
 }
@@ -90,7 +90,7 @@
   position: absolute;
   width: 40px;
   height: 1px;
-  background-color: #F52225;
+  background-color: #f52225;
   top: 12px;
   left: 85px;
 }
@@ -140,7 +140,7 @@
   width: 8px;
   height: 8px;
   border-radius: 50%;
-  background-color: #F52225;
+  background-color: #f52225;
   position: relative;
 }
 .portfolio .container .row.row-2 .col-6 .browser .headers span::before {
@@ -187,6 +187,13 @@
   background-repeat: no-repeat;
   background-color: white;
   transition: 2s all;
+}
+.portfolio .container .row.row-2 .col-6 .browser .content5 {
+  background-image: url("../../image/react-eccomerce.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  transition: 3s all;
 }
 
 @media screen and (max-width: 600px) {
