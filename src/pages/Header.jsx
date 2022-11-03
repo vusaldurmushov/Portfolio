@@ -20,10 +20,9 @@ function Header() {
             <div className="navbar">
                 <div className="logo">
                     <a href="#home"> <h1><span>P</span>ortfolio</h1></a>
-
                 </div>
 
-                <div className={`menu ${length ? 'length' : ''}`}>
+                <div className={`menu ${length ? '' : 'length'}`}>
                     <ul onClick={() => changeBars()} >
                         <li><a className="a-hover" href="#home">Home</a></li>
                         <li><a className="a-hover" href="#about">About</a></li>
