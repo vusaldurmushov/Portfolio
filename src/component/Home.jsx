@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import homeimg from '../image/Home-image.png';
+import homeimg from '../image/me/Home-image.png';
 
 function Home() {
 
@@ -27,7 +27,7 @@ function Home() {
                 <p>Baku Azerbaijan.</p>
               </div>
               <div className="home-letter3">
-                <p>Innovative Front End Developer with 6+ month experience building and
+                <p>Innovative Front End Developer with 2+ years experience building and
                   maintaining responsive websites</p>
               </div>
               <div className="home-button">

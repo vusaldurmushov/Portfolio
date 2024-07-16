@@ -1,4 +1,4 @@
-import React,{useEffect} from 'react'
+import React from 'react'
 import "../portfolio/portfolio.css"
 import Aos from "aos"
 

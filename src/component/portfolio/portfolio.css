@@ -113,7 +113,7 @@
 .portfolio .container .row.row-2 .col-6 .browser .content {
   width: 100%;
   height: 300px;
-  background: url("../../image/full-size-screenshot.png");
+  background: url("../../image/projects/full-size-screenshot.png");
   transition: 8s all;
   background-size: cover;
   position: relative;
@@ -165,7 +165,7 @@
   background-position: bottom;
 }
 .portfolio .container .row.row-2 .col-6 .browser .content2 {
-  background-image: url("../../image/exchange2.png");
+  background-image: url("../../image/projects/exchange2.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -173,7 +173,7 @@
   transition: 2s all;
 }
 .portfolio .container .row.row-2 .col-6 .browser .content3 {
-  background-image: url("../../image/registration.png");
+  background-image: url("../../image/projects/registration.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -181,7 +181,7 @@
   transition: 2s all;
 }
 .portfolio .container .row.row-2 .col-6 .browser .content4 {
-  background-image: url("../../image/todolist.png");
+  background-image: url("../../image/projects/todolist.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
@@ -189,7 +189,7 @@
   transition: 2s all;
 }
 .portfolio .container .row.row-2 .col-6 .browser .content5 {
-  background-image: url("../../image/react-eccomerce.png");
+  background-image: url("../../image/projects/react-eccomerce.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-color: white;
