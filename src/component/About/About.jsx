@@ -10,7 +10,6 @@ function About() {
 
   const myAge = new Date().getFullYear() - 1999;
 
-  console.log(myAge);
 
   return (
     <div className='about-full' id='about'>

@@ -49,8 +49,6 @@ function Contact() {
       )
       .then(
         (result) => {
-          console.log(result.text);
-
           toast.success("Message sent successfully !", {
             position: "top-right",
             autoClose: 5000,
@@ -67,7 +65,6 @@ function Contact() {
           });
         },
         (error) => {
-          console.log(error.text);
           toast.error("Wow so easy!", {
             position: "top-right",
             autoClose: 5000,
